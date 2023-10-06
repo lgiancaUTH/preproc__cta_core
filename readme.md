@@ -4,7 +4,7 @@ This repository provides a GUI to automatically preprocess CTA images and evalua
 This can be directly used as input for the ML pipeline to segment acute hypoperfused area indicative of ischemic stroke core available here: https://glabapps.uth.edu/cta/
 and described here:
 ``
-Giancardo L, Niktabe A, 7Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Segmentation of acute stroke infarct core using image-level labels on CT-angiography. NeuroImage: Clinical 2023;37:103362. https://doi.org/10.1016/j.nicl.2023.103362 . 
+Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Segmentation of acute stroke infarct core using image-level labels on CT-angiography. NeuroImage: Clinical 2023;37:103362. https://doi.org/10.1016/j.nicl.2023.103362 . 
 ``
 
 
