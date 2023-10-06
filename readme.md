@@ -13,7 +13,7 @@ Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Se
 ## Installation
 
 1. Clone this repository
-2. Open 3D Slicer
+2. Open 3D Slicer (see https://www.slicer.org/ for installation instructions)
 3. Open the Python Interactor
 4. Run `exec(open('path/to/install_requirements.py').read())` in the Python interactor
 5. 3D Slicer will reboot
