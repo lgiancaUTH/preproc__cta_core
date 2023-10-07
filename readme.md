@@ -16,7 +16,7 @@ Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Se
 
 ## Installation
 
-1. Clone this repository `git clone https://github.com/lgiancaUTH/preproc__cta_core.git`
+1. Clone this repository `git clone https://github.com/lgiancaUTH/preproc__cta_core.git` (or download and unzip the repository by clicking on the green button on the top right of this main GitHub repository page)
 2. Open 3D Slicer (see https://www.slicer.org/ for installation instructions)
 3. Open the Python Interactor
 4. Run `exec(open('path/to/install_requirements.py').read())` in the Python interactor
