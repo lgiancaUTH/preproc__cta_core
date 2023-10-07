@@ -12,7 +12,7 @@ Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Se
 
 ## Installation
 
-1. Clone this repository
+1. Clone this repository `git clone https://github.com/lgiancaUTH/preproc__cta_core.git`
 2. Open 3D Slicer (see https://www.slicer.org/ for installation instructions)
 3. Open the Python Interactor
 4. Run `exec(open('path/to/install_requirements.py').read())` in the Python interactor
@@ -25,5 +25,17 @@ Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Se
 3. Run `import os; os.chdir('path/to/this/repository')`
 4. Run `exec(open('gui_main.py').read())` in the Python interactor
 
+
+## Usage
+This GUI allows to estimate a rough brain mask and register a CTA image to a template. It allows both to move the image to a new space (and anonimize it by applying a conservative brain mask) or to compute the affine matrix without chaging the original CTA. Note that the brain mask is not intended to include only the brain, but also the the internal edges of the skull. This is by design, as it allows fully capturing the circulation close to the skull.
+
+A video describing its use is available here: https://youtu.be/IQiWHLVHE4o
+
 # GPU/CPU configuration
 The file conf.py contains the GPU/CPU configuration. This is needed for the rough brain mask detection, which is based on a 2D Attention U-Net. However, the whole process can be run pretty fast on CPU only. 
+
+# Contact
+For more information, please contact us. https://sbmi.uth.edu/giancalab/ 
+
+# Disclaimer
+This tool is experimental and for research purposes only and is not intended for diagnostic use or medical decision-making. The tool  are prototypes and have not been approved by the FDA. 
