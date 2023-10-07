@@ -35,7 +35,7 @@ A video describing its use is available here: https://youtu.be/IQiWHLVHE4o
 The file conf.py contains the GPU/CPU configuration. This is needed for the rough brain mask detection, which is based on a 2D Attention U-Net. However, the whole process can be run pretty fast on CPU only. 
 
 # Contact
-For more information, please contact us. https://sbmi.uth.edu/giancalab/ 
+For more information, please contact us: https://sbmi.uth.edu/giancalab/ 
 
 # Disclaimer
 This tool is experimental and for research purposes only and is not intended for diagnostic use or medical decision-making. The tool  are prototypes and have not been approved by the FDA. 
