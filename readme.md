@@ -1,7 +1,11 @@
 # GUI to preprocess CTA images in 3D Slicer
 
 This repository provides a GUI to automatically preprocess CTA images and evaluate their quality with 3D Slicer. 
-This can be directly used as input for the ML pipeline to segment acute hypoperfused area indicative of ischemic stroke core available here: https://glabapps.uth.edu/cta/
+
+This GUI allows to estimate a rough brain mask and register a CTA image to a template. It allows both to move the image to a new space (and anonimize it by applying a conservative brain mask) or to compute the affine matrix without chaging the original CTA. Note that the brain mask is not intended to include only the brain, but also the the internal edges of the skull. This is by design, as it allows fully capturing the circulation close to the skull.
+
+
+The ouput can be directly used as input for the ML pipeline to segment acute hypoperfused area indicative of ischemic stroke core available here: https://glabapps.uth.edu/cta/
 and described here:
 ``
 Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Segmentation of acute stroke infarct core using image-level labels on CT-angiography. NeuroImage: Clinical 2023;37:103362. https://doi.org/10.1016/j.nicl.2023.103362 . 
@@ -27,8 +31,6 @@ Giancardo L, Niktabe A, Ocasio L, Abdelkhaleq R, Salazar-Marioni S, Sheth SA. Se
 
 
 ## Usage
-This GUI allows to estimate a rough brain mask and register a CTA image to a template. It allows both to move the image to a new space (and anonimize it by applying a conservative brain mask) or to compute the affine matrix without chaging the original CTA. Note that the brain mask is not intended to include only the brain, but also the the internal edges of the skull. This is by design, as it allows fully capturing the circulation close to the skull.
-
 A video describing its use is available here: https://youtu.be/IQiWHLVHE4o
 
 # GPU/CPU configuration
